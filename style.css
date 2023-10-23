@@ -1,0 +1,139 @@
+html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-size: 16px;
+}
+
+.header-container{
+    list-style-type: none;
+    padding: 0;
+    background-color: white;
+    display: flex;
+    flex-shrink: 0;
+    border-radius: 1.25rem;
+    background: var(--White, #FFF);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    margin: 8%;
+    margin-top: 3.19rem;
+
+
+}
+
+header img{
+    width: 6.5625rem;
+    flex-shrink: 0;
+    padding-left: 2.5rem;
+}
+
+ul.nav-links li{
+    display: inline;
+    
+}
+
+ul.nav-links li a{
+    display: block;
+    text-align: center;
+    color: #016A70;
+    margin-right: 3.25rem;
+    text-decoration: none;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+
+    
+}
+
+ul.nav-links{
+    display: flex;
+    text-align: center;
+    margin-left: 12rem;
+    padding: 1.5%;
+
+}
+
+header button {
+    display: flex;
+    padding: 0.5rem 1.25rem;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.625rem;
+    background: var(--Green, #016A70);
+    margin-left: 10rem;
+    margin-top: 1.3rem;
+    color: var(--White, #FFF);
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+
+button {
+    display: flex;
+    padding: 0.6rem 1.25rem;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.625rem;
+    background: var(--Green, #016A70);
+    color: var(--White, #FFF);
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border: 2px solid var(--White, #FFF);
+
+}
+
+h1{
+    color: var(--Cream, #FFD);
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 41rem;
+    margin-bottom: -1.5rem;
+}
+
+h3{
+    color: var(--White, #FFF);
+    font-size: 1.75rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: -1.5rem;
+}
+
+.body-message{
+    margin-left: 9.83rem;
+    margin-top: 8rem;
+    margin-right: -3rem;
+}
+
+h6{
+    color: var(--White, #FFF);
+    font-size: 0.8rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-right: 8rem;
+    justify-content: center;
+}
+
+.image-text img{
+    max-width: 32rem;
+    float: right;
+    margin-top: 10rem;
+    margin-right: 15rem;
+} 
+
+.image-text {
+    display: flex;
+    align-items: center;
+    margin-top: -15rem;
+}
+
+body{
+    background-color: #016A70;
+    font-family: 'Poppins', sans-serif;
+}
