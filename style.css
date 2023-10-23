@@ -133,6 +133,38 @@ h6{
     margin-top: -15rem;
 }
 
+footer{
+    background-color: white;
+    display: flex;
+    text-decoration: none;
+    width: 120%;
+    min-height: 15rem;
+    margin-top: 7.75rem;
+}
+
+footer h1{
+    color: black;
+}
+
+footer h3{
+    color: black;
+    
+}
+
+ul.stats{
+    display: flex;
+    text-align: center;
+    margin-left: 0;
+    padding: 0.5%;
+    
+}
+
+ul.stats li{
+    display: inline;
+    margin-right: -25rem;
+    text-align: center;
+}
+
 body{
     background-color: #016A70;
     font-family: 'Poppins', sans-serif;
